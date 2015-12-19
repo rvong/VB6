@@ -1,0 +1,5 @@
+Public Declare Function InitCommonControls Lib "comctl32.dll" () As Long    'this file needs to be on the comp
+'XP MANIFEST ===========================
+'Private Sub Form_Initialize()
+'    InitCommonControls
+'End Sub

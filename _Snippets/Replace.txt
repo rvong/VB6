@@ -1,0 +1,35 @@
+Function ReplaceIt(Expression As String, Find As String, Replace As String, Optional Start As Long = 1, Optional Compare As VbCompareMethod = vbBinaryCompare) As String
+    Dim a As Long, b As Long
+
+    b = LenB(Find)
+    
+    Do
+        a = InStrB(1, Expression, Find, Compare)
+        
+        If a > 0 Then   'Part Before Find       'Add Replace Text Between        'Add Rest of Text
+            Expression = MidB$(Expression, 1, a - 1) & Replace & MidB$(Expression, a + b, LenB(Expression) - b)
+        End If
+    Loop Until a = 0
+    
+    ReplaceIt = Expression
+End Function
+
+Function Replace2(Expression As String, Find As String, Replace As String) As String
+  Dim a As Long, b As Long
+  
+  a = 1
+  'a = InStrB(Expression, Find)
+  b = LenB(Find)
+  
+    'If a > 0 Then
+      Do Until a = 0
+        a = InStr(a, Expression, Find)
+        
+        Expression = Mid$(Expression, 1, a - 1) '& Mid$(Expression, a + Len(Find), Len(Expression) - a)
+      Loop
+      
+      Replace2 = Expression
+    'Else
+      'Replace = Expression
+   ' End If
+End Function

@@ -1,0 +1,5 @@
+frmMain = -19, 326, 575, 832, Z, 23, 23, 617, 529, C
+modGeneral = -65, 158, 681, 717, 
+modMain = -199, 51, 547, 610, 
+clsKeyStats = 124, 145, 764, 668, 
+clsGlobalKeyHook = 198, 261, 941, 820, 

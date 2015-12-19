@@ -1,0 +1,192 @@
+Abnt C1
+Abnt C2
+Numpad +
+Attn
+Backspace
+Break
+Clear
+Cr Sel
+Numpad .
+Numpad /
+Er Eof
+Esc
+Execute
+Ex Sel
+IcoClr
+IcoHlp
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Numpad *
+NoName
+Numpad 0
+Numpad 1
+Numpad 2
+Numpad 3
+Numpad 4
+Numpad 5
+Numpad 6
+Numpad 7
+Numpad 8
+Numpad 9
+OEM_1 (: ;)
+OEM_102 (> <)
+OEM_2 (? /)
+OEM_3 (~ `)
+OEM_4 ({ [)
+OEM_5 (| \)
+OEM_6 (} ])
+OEM_7 (" ')
+OEM_8 (§ !)
+Oem Attn
+Auto
+Ax
+Back Tab
+OemClr
+OEM_COMMA (< ,)
+Copy
+Cu Sel
+Enlw
+Finish
+Loya
+Mashu
+Roya
+Touroku
+Jump
+OEM_MINUS (_ -)
+OemPa1
+OemPa2
+OemPa3
+OEM_PERIOD (> .)
+OEM_PLUS (+ =)
+Reset
+WsCtrl
+Pa1
+Packet
+Play
+Process
+Enter
+Select
+Separator
+Space
+Num -
+Tab
+Zoom
+no VK mapping
+Accept
+Context Menu
+Browser Back
+Browser Favorites
+Browser Forward
+Browser Home
+Browser Refresh
+Browser Search
+Browser Stop
+Caps Lock
+Convert
+Delete
+Arrow Down
+End
+F1
+F10
+F11
+F12
+F13
+F14
+F15
+F16
+F17
+F18
+F19
+F2
+F20
+F21
+F22
+F23
+F24
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+Final
+Help
+Home
+Ico00
+Insert
+Junja
+Kana
+Kanji
+App1
+App2
+Mail
+Media
+Left Button
+Left Ctrl
+Arrow Left
+Left Alt
+Left Shift
+Left Win
+Middle Button
+Next Track
+Play / Pause
+Previous Track
+Stop
+Mode Change
+Page Down
+Non Convert
+Num Lock
+Jisho
+Pause
+Print
+Page Up
+Right Button
+Right Ctrl
+Arrow Right
+Right Alt
+Right Shift
+Right Win
+Scrol Lock
+Sleep
+Print Screen
+Arrow Up
+Volume Down
+Volume Mute
+Volume Up
+X Button 1
+X Button 2

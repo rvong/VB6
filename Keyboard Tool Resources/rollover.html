@@ -1,0 +1,113 @@
+<html>
+<head>
+<script type="text/javascript">
+var keys = [];
+var order = [];
+
+function getkeyname(keycode) {
+	if(keycode >= 65 && keycode <= 90) {
+		return String.fromCharCode(keycode);
+	}
+	if(keycode >= 48 && keycode <= 57) return keycode - 48;
+	if(keycode == 8) return "&lt;BACKSPACE&gt;";
+	if(keycode == 9) return "&lt;TAB&gt;";
+	if(keycode == 12) return "&lt;NUM5&gt;";
+	if(keycode == 13) return "&lt;ENTER&gt;";
+	if(keycode == 16) return "&lt;SHIFT&gt;";
+	if(keycode == 17) return "&lt;CTRL&gt;";
+	if(keycode == 18) return "&lt;ALT&gt;";
+	if(keycode == 19) return "&lt;PAUSE&gt;";
+	if(keycode == 20) return "&lt;CAPSLOCK&gt;";
+	if(keycode == 27) return "&lt;ESC&gt;";
+	if(keycode == 32) return "&lt;SPACE&gt;";
+	if(keycode == 33) return "&lt;PAGEUP&gt;";
+	if(keycode == 34) return "&lt;PAGEDOWN&gt;";
+	if(keycode == 35) return "&lt;END&gt;";
+	if(keycode == 36) return "&lt;HOME&gt;";
+	if(keycode == 37) return "&lt;LEFTARROW&gt;";
+	if(keycode == 38) return "&lt;UPARROW&gt;";
+	if(keycode == 39) return "&lt;RIGHTARROW&gt;";
+	if(keycode == 40) return "&lt;DOWNARROW&gt;";
+	if(keycode == 45) return "&lt;INSERT&gt;";
+	if(keycode == 46) return "&lt;DELETE&gt;";
+	if(keycode == 59) return ";";
+	if(keycode == 91) return "&lt;LEFTWINDOWS&gt;";
+	if(keycode == 92) return "&lt;RIGHTWINDOWS&gt;";
+	if(keycode == 93) return "&lt;MENU&gt;";
+	if(keycode >= 96 && keycode <= 105) return "&lt;NUM" + (keycode - 96) + "&gt;";
+	if(keycode == 106) return "&lt;MULTIPLY&gt;";
+	if(keycode == 107) return "&lt;ADD&gt;";
+	if(keycode == 109) return "&lt;SUBTRACT&gt;";
+	if(keycode == 110) return "&lt;DECIMAL&gt;";
+	if(keycode == 111) return "&lt;DIVIDE&gt;";
+	if(keycode >= 112 && keycode <= 123) return "&lt;F" + (keycode - 111) + "&gt;";
+	if(keycode == 144) return "&lt;NUMLOCK&gt;";
+	if(keycode == 145) return "&lt;SCROLLLOCK&gt;";
+	if(keycode == 186) return "&lt;SEMICOLON&gt;";
+	if(keycode == 187) return "&lt;EQUALS&gt;";
+	if(keycode == 188) return ",";
+	if(keycode == 189) return "&lt;DASH&gt;";
+	if(keycode == 190) return ".";
+	if(keycode == 191) return "/";
+	if(keycode == 192) return "&lt;BACKTICK&gt;";
+	if(keycode == 219) return "[";
+	if(keycode == 220) return "\\";
+	if(keycode == 221) return "]";
+	if(keycode == 222) return "'";
+	return "&lt;" + keycode + "&gt;";
+}
+
+//This prototype is provided by the Mozilla foundation and
+//is distributed under the MIT license.
+//http://www.ibiblio.org/pub/Linux/LICENSES/mit.license
+if (!Array.prototype.map)
+{
+  Array.prototype.map = function(fun /*, thisp*/)
+  {
+    var len = this.length;
+    if (typeof fun != "function")
+      throw new TypeError();
+
+    var res = new Array(len);
+    var thisp = arguments[1];
+    for (var i = 0; i < len; i++)
+    {
+      if (i in this)
+        res[i] = fun.call(thisp, this[i], i, this);
+    }
+
+    return res;
+  };
+}
+
+function update() {
+	document.getElementById('disp').innerHTML = order.map(getkeyname).join("");
+	document.getElementById('count').innerHTML = order.length;
+}
+
+function remove(which) {
+	for(var i = 0; i < order.length; i++) {
+		if(order[i] == which) {
+			order.splice(i, 1);
+			return;
+		}
+	}
+}
+
+function getkeycode(e) {
+	var keycode;
+	if (window.event) keycode = window.event.keyCode;
+	else if (e) keycode = e.which;
+	return keycode;
+}
+
+</script>
+<body onkeydown="c=getkeycode(event); if(keys[c] == c) return false; keys[c] = c; order[order.length] = c; update(); return false;" onkeyup="c=getkeycode(event); keys[c] = ''; remove(c); update();" >
+Type some keys simultaneously to test for ghosting or blocking (does your keyboard have n-key rollover or anti-ghosting?)<br>
+Good combinations to try are like wexc and rtyu<br>
+Use the order to check for <a href="http://geekhack.org/showthread.php?t=909">the das keyboard problem</a><br>
+<br>
+Keys accepted: <span id="disp"></span><br>
+Count: <span id="count"></span><br>
+<noscript>(Javascript is disabled. Enable Javascript to count the number of simultaneously accepted keys)</noscript>
+</body>

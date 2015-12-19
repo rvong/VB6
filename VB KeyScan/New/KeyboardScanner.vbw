@@ -1,0 +1,4 @@
+frmMain = 0, 0, 0, 0, C, 66, 87, 809, 646, C
+modKeybdHook = 205, 166, 822, 676, 
+modGeneral = 181, 78, 806, 593, 
+clsRegistry = 69, 69, 768, 575, C

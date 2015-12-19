@@ -1,0 +1,13 @@
+https://edit.europe.yahoo.com/config/change_pw?.done=https%3A%2F%2Fedit.yahoo.com%2Fconfig%2Feval_profile%3F.scrumb%3DhhRQVuY8RYl&.confirm=1&.tr=&.scrumb=0
+
+GET /config/login_verify2?passwd=b63fda30d9a706519f1646873cbe536b&.md5=1&.js=1&.partner=&.intl=us&.scrumb=0&.challenge=cYD3TxttDuq4dnAHD6JyptScvpwE&.slogin=runbashrun&.done=https%3A%2F%2Fedit.europe.yahoo.com%2Fconfig%2Fchange_pw%3F.done%3Dhttps%253A%252F%252Fedit.yahoo.com%252Fconfig%252Feval_profile%253F.scrumb%253DhhRQVuY8RYl%26.confirm%3D1%26.tr%3D%26.scrumb%3D0 HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/vnd.ms-xpsdocument, application/xaml+xml, application/x-ms-xbap, application/x-shockwave-flash, application/msword, */*
+Referer: https://edit.europe.yahoo.com/config/change_pw?.scrumb=hhRQVuY8RYl&.done=
+Accept-Language: en-us
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30729; .NET CLR 3.5.30729)
+Cookie: B=f22mdrt56j4jh&b=4&d=VkTj0sFpYEKGw.oz2_vGojtfJDeEguNvw.6Chw--&s=d9; F=a=reqX1JsMvTK54cOYY0s2.bCuK5OW8FU.v2lsCEyvPgNXNhe1uUiRxvUxpVCq4cUy73oM9frTyxzRf.IGSIBxVaJ_EA--&b=l5OY; YLS=v=1&p=0&n=9; Y=v=1&n=6lbvr8664ksa7&l=hkd10i7hkd/o&p=f2g2olk012000000&r=l9&lg=en-US&intl=us&np=1; PH=fn=UiwTAz7a.M5RAYLl20g-&l=en-US; T=z=tKZaKBteAfKBejZxkDc5u29NjY2TgY2Tzc2MzM3NU41TjZPNj&a=QAE&sk=DAAxo5gZ.61XWX&ks=EAAAZbsMljm7rzdV4Gt1Vx4Qw--~C&d=c2wBTVRFeE9RRXhPREF4TkRRd01qa3lPVEU0TVRZek9RLS0BYQFRQUUBZwFRNkFSQjdMS1I0UVRETUhGN0I0N1BaM1hWTQF0aXABaWQ1clBCAXp6AXRLWmFLQkE3RQ--; C=mg=1; SSL=v=1&s=hciHf8G3OQNg719pMjiGS0YucyV0iEYbsZD1y0xysdtqSGkO6k3Ecwn9zkXlG5oxVyVjDFg3rDiPGONnjD6_Pg--&kv=0
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+Cache-Control: no-cache
+Host: login.yahoo.com
+

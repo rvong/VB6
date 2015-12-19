@@ -1,0 +1,109 @@
+
+==========================================
+Computer: RICHARD-PC
+==========================================
+Access: 
+Availability: 
+BlockSize: 512
+Bootable: False
+BootPartition: False
+Caption: Disk #1, Partition #0
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_DiskPartition
+Description: Installable File System
+DeviceID: Disk #1, Partition #0
+DiskIndex: 1
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+HiddenSectors: 
+Index: 0
+
+LastErrorCode: 
+Name: Disk #1, Partition #0
+NumberOfBlocks: 156248127
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+PrimaryPartition: True
+Purpose: 
+RewritePartition: 
+Size: 79999041024
+StartingOffset: 32256
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: RICHARD-PC
+Type: Installable File System
+
+Access: 
+Availability: 
+BlockSize: 512
+Bootable: True
+BootPartition: True
+Caption: Disk #0, Partition #0
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_DiskPartition
+Description: Installable File System
+DeviceID: Disk #0, Partition #0
+DiskIndex: 0
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+HiddenSectors: 
+Index: 0
+
+LastErrorCode: 
+Name: Disk #0, Partition #0
+NumberOfBlocks: 251674227
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+PrimaryPartition: True
+Purpose: 
+RewritePartition: 
+Size: 128857204224
+StartingOffset: 32256
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: RICHARD-PC
+Type: Installable File System
+
+Access: 
+Availability: 
+BlockSize: 512
+Bootable: False
+BootPartition: False
+Caption: Disk #0, Partition #1
+ConfigManagerErrorCode: 
+ConfigManagerUserConfig: 
+CreationClassName: Win32_DiskPartition
+Description: Extended Partition
+DeviceID: Disk #0, Partition #1
+DiskIndex: 0
+ErrorCleared: 
+ErrorDescription: 
+ErrorMethodology: 
+HiddenSectors: 
+Index: 1
+
+LastErrorCode: 
+Name: Disk #0, Partition #1
+NumberOfBlocks: 692064135
+PNPDeviceID: 
+PowerManagementCapabilities: 
+PowerManagementSupported: 
+PrimaryPartition: False
+Purpose: 
+RewritePartition: 
+Size: 354336837120
+StartingOffset: 128857236480
+Status: 
+StatusInfo: 
+SystemCreationClassName: Win32_ComputerSystem
+SystemName: RICHARD-PC
+Type: Extended Partition
+

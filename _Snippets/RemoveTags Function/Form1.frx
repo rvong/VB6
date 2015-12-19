@@ -1,0 +1,37 @@
+ÿ<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<TITLE>Proxy Lists. Sorted by type. List #3</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META content="Sorted by type proxy list #3, updated July 19, 2009 at 12:01:01 AM" name=description>
+
+<META content="proxy, server, list, free proxies, elite, socks, anonymity, anonymous, privacy" name=Keywords>
+<link rel="stylesheet" type="text/css" href="/proxy_div.css">
+<script src="http://samair.ru:81/js/m.js" type="text/javascript"></script><script type="text/javascript">
+k=0;h=1;j=3;n=4;z=7;r=2;w=9;m=8;i=6;y=5;</script></head>
+<body>
+<div id="main">
+  <div class="top_arrow"><img class="displ_block" src="http://samair.ru:81/img/arrow_top_page.gif" border="0"> </div>
+
+  <div class="title_top">
+    <div class="title_text">
+      <h1>Proxy List</h1>
+    </div>
+  </div>
+  <div class="menu_arrow"><img class="displ_block" src="http://samair.ru:81/img/arrow_top2.gif"  border="0"></div>
+  <div class="bg_menu"> </div>
+  <div id="menu">
+
+    <dl>
+      <dt onMouseOver="javascript:montre();"><a href="http://www.samair.ru/">Home Page</a></dt>
+    </dl>
+    <dl>
+      <dt onMouseOver="javascript:montre('smenu1');"><a class="default_cursor" href="#" >Proxy List</a></dt>
+      <dd id="smenu1">
+        <ul>
+          <li><a href="http://www.samair.ru/proxy/">HTTP Proxies</a></li>
+
+          <li><a href="http://www.samair.ru/proxy/socks.htm">SOCKS Proxies</a></li>
+        </ul>
+

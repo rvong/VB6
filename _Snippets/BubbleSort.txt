@@ -1,0 +1,22 @@
+Private Function bubbleSort(Arr() As Long)
+    Dim swapped As Boolean
+    swapped = True
+    Dim max As Long, temp As Long, i As Long
+    max = UBound(Arr()) - 1
+    
+    While swapped = True
+        swapped = False
+        
+        For i = 0 To max
+            If Arr(i) > Arr(i + 1) Then
+                temp = Arr(i)
+                Arr(i) = Arr(i + 1)
+                Arr(i + 1) = temp
+            End If
+            swapped = True
+        Next i
+            
+        max = max - 1
+    Wend
+End Function
+End Function

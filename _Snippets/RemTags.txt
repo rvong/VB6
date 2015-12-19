@@ -1,0 +1,51 @@
+Function RemoveTag(str As String, tagA As String, tagB As String) As String
+Dim a As Long, b As Long
+
+a = InStr(1, str, tagA)
+b = InStr(a, str, tagB)
+
+RemoveTag = Mid$(str, 1, a - Len(tagA)) & Mid$(str, b + Len(tagB), Len(str) - (b))
+End Function
+
+
+Function RemoveTag(str As String, tagA As String, tagB As String) As String
+  Dim a As Long, b As Long
+  
+  a = InStr(1, str, tagA)
+  
+  If a > 0 Then
+    b = InStr(a, str, tagB)
+    
+    If b > a Then
+      RemoveTag = Mid$(str, 1, a - Len(tagA)) & Mid$(str, b + Len(tagB), Len(str) - (b))
+    Else
+      RemoveTag = str
+    End If
+    
+  Else
+    RemoveTag = str
+  End If
+End Function
+
+
+
+Function RemoveAllTags(str As String, tagA As String, tagB As String) As String
+  Dim a As Long, b As Long
+  
+  a = 1
+  b = 1
+  
+  Do Until a = 0
+    a = InStr(a, str, tagA)
+    
+    If a > 0 Then
+      b = InStr(a, str, tagB)
+      
+      If b > a Then
+        str = Mid$(str, a, a - Len(tagA)) & Mid$(str, b + Len(tagB), Len(str) - (b))
+      End If
+    End If
+  Loop
+  
+  RemoveAllTags = str
+End Function

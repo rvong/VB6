@@ -1,0 +1,87 @@
+body
+{
+	background-color: #f8f8f8;
+	margin: 1.5em;
+	font-family: Arial, Arial, Helvetica;
+	font-style: normal;
+	font-size: 90%;
+}
+
+h1:first-line 
+{
+	line-height: 1em;
+	font-family: Times;
+	font-size: xx-large;
+	font-variant: small-caps;
+	font-weight: lighter;
+}
+
+h1
+{
+	line-height: 1.5em;
+	font-family: Arial, Arial, Helvetica;
+	font-size: large;
+	letter-spacing: -0.05em;
+	font-weight: normal;
+	color: darkblue;
+}
+
+h2 {
+	margin-top : 1.5em;
+	line-height: 1.5em;
+	font-family:  Arial, Arial, Helvetica;
+	font-size: large;
+	color: darkblue;
+}
+
+
+h3
+{
+	margin-top: 1.5em;
+	line-height: 1.5em;
+	font-family: Arial, Arial, Helvetica;
+	font-size: medium;
+	letter-spacing: 0.1em;
+	color: darkblue;
+}
+
+
+h4
+{
+	margin-top: 1em;
+	line-height: 1em;
+	font-family: Arial, Arial, Helvetica;
+	font-size: small
+	letter-spacing: 0.1em;
+	color: darkblue;
+}
+
+
+img
+{
+	border-width: 10px;
+	border-left-width: 20px;
+	border-color: #f8f8f8;
+	float: right padding-left: 3em;
+}
+
+p
+{
+	font-family: Arial, Arial, Helvetica;
+	font-style: normal;
+	font-size: inherit;
+}
+
+li
+{
+	font-family:  Arial, Arial, Helvetica;
+	font-style: normal;
+	font-size: inherit;
+}
+
+td
+{
+	font-family:  Arial, Arial, Helvetica;
+	font-style: normal;
+	font-size: inherit;
+}

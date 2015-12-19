@@ -1,0 +1,55 @@
+On Error Resume Next
+
+Const wbemFlagReturnImmediately = &h10
+Const wbemFlagForwardOnly = &h20
+
+arrComputers = Array("RICHARD-PC")
+For Each strComputer In arrComputers
+   WScript.Echo
+   WScript.Echo "=========================================="
+   WScript.Echo "Computer: " & strComputer
+   WScript.Echo "=========================================="
+
+   Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\CIMV2")
+   Set colItems = objWMIService.ExecQuery("SELECT * FROM Win32_PhysicalMemoryArray", "WQL", _
+                                          wbemFlagReturnImmediately + wbemFlagForwardOnly)
+
+   For Each objItem In colItems
+      WScript.Echo "Caption: " & objItem.Caption
+      WScript.Echo "CreationClassName: " & objItem.CreationClassName
+      WScript.Echo "Depth: " & objItem.Depth
+      WScript.Echo "Description: " & objItem.Description
+      WScript.Echo "Height: " & objItem.Height
+      WScript.Echo "HotSwappable: " & objItem.HotSwappable
+      WScript.Echo "InstallDate: " & WMIDateStringToDate(objItem.InstallDate)
+      WScript.Echo "Location: " & objItem.Location
+      WScript.Echo "Manufacturer: " & objItem.Manufacturer
+      WScript.Echo "MaxCapacity: " & objItem.MaxCapacity
+      WScript.Echo "MemoryDevices: " & objItem.MemoryDevices
+      WScript.Echo "MemoryErrorCorrection: " & objItem.MemoryErrorCorrection
+      WScript.Echo "Model: " & objItem.Model
+      WScript.Echo "Name: " & objItem.Name
+      WScript.Echo "OtherIdentifyingInfo: " & objItem.OtherIdentifyingInfo
+      WScript.Echo "PartNumber: " & objItem.PartNumber
+      WScript.Echo "PoweredOn: " & objItem.PoweredOn
+      WScript.Echo "Removable: " & objItem.Removable
+      WScript.Echo "Replaceable: " & objItem.Replaceable
+      WScript.Echo "SerialNumber: " & objItem.SerialNumber
+      WScript.Echo "SKU: " & objItem.SKU
+      WScript.Echo "Status: " & objItem.Status
+      WScript.Echo "Tag: " & objItem.Tag
+      WScript.Echo "Use: " & objItem.Use
+      WScript.Echo "Version: " & objItem.Version
+      WScript.Echo "Weight: " & objItem.Weight
+      WScript.Echo "Width: " & objItem.Width
+      WScript.Echo
+   Next
+Next
+
+
+Function WMIDateStringToDate(dtmDate)
+WScript.Echo dtm: 
+	WMIDateStringToDate = CDate(Mid(dtmDate, 5, 2) & "/" & _
+	Mid(dtmDate, 7, 2) & "/" & Left(dtmDate, 4) _
+	& " " & Mid (dtmDate, 9, 2) & ":" & Mid(dtmDate, 11, 2) & ":" & Mid(dtmDate,13, 2))
+End Function

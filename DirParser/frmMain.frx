@@ -1,0 +1,47 @@
+ÿ Volume in drive C has no label.
+ Volume Serial Number is 60D4-E482
+
+ Directory of C:\Users\Richard
+
+07/24/2009  06:19 PM    <DIR>          .
+07/24/2009  06:19 PM    <DIR>          ..
+07/09/2009  07:39 PM    <DIR>          .VirtualBox
+06/18/2009  01:36 AM    <DIR>          AppData
+06/18/2009  01:36 AM    <JUNCTION>     Application Data [C:\Users\Richard\AppData\Roaming]
+06/18/2009  01:36 AM    <DIR>          Contacts
+06/18/2009  01:36 AM    <JUNCTION>     Cookies [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\Cookies]
+07/25/2009  01:55 PM    <DIR>          Desktop
+07/24/2009  01:35 AM    <DIR>          Documents
+07/25/2009  05:33 AM    <DIR>          Downloads
+06/18/2009  01:36 AM    <DIR>          Favorites
+07/23/2009  05:31 PM    <DIR>          Links
+06/18/2009  01:36 AM    <JUNCTION>     Local Settings [C:\Users\Richard\AppData\Local]
+07/11/2009  10:26 PM    <DIR>          Music
+06/18/2009  01:36 AM    <JUNCTION>     My Documents [C:\Users\Richard\Documents]
+06/18/2009  01:36 AM    <JUNCTION>     NetHood [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\Network Shortcuts]
+07/25/2009  01:55 PM         2,097,152 NTUSER.DAT
+07/25/2009  01:55 PM           262,144 ntuser.dat.LOG1
+06/18/2009  01:36 AM                 0 ntuser.dat.LOG2
+07/25/2009  04:04 AM            65,536 NTUSER.DAT{0f69446d-6a70-11db-8eb3-985e31beb686}.TM.blf
+07/25/2009  04:04 AM           524,288 NTUSER.DAT{0f69446d-6a70-11db-8eb3-985e31beb686}.TMContainer00000000000000000001.regtrans-ms
+06/18/2009  01:41 AM           524,288 NTUSER.DAT{0f69446d-6a70-11db-8eb3-985e31beb686}.TMContainer00000000000000000002.regtrans-ms
+06/18/2009  01:36 AM                20 ntuser.ini
+07/20/2009  07:45 PM    <DIR>          Pictures
+06/18/2009  01:36 AM    <JUNCTION>     PrintHood [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\Printer Shortcuts]
+06/18/2009  01:36 AM    <JUNCTION>     Recent [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\Recent]
+07/18/2009  01:46 PM    <DIR>          Saved Games
+06/18/2009  01:36 AM    <DIR>          Searches
+06/18/2009  01:36 AM    <JUNCTION>     SendTo [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\SendTo]
+06/18/2009  01:36 AM    <JUNCTION>     Start Menu [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\Start Menu]
+06/18/2009  01:36 AM    <JUNCTION>     Templates [C:\Users\Richard\AppData\Roaming\Microsoft\Windows\Templates]
+06/18/2009  01:36 AM    <DIR>          Videos
+               7 File(s)      3,473,428 bytes
+
+ Directory of C:\Users\Richard\.VirtualBox
+
+07/09/2009  07:39 PM    <DIR>          .
+07/09/2009  07:39 PM    <DIR>          ..
+07/09/2009  07:39 PM    <DIR>          HardDisks
+07/09/2009  07:40 PM    <DIR>          Machines
+07/25/2009  04:50 AM             3,482 VirtualBox.xml
+               1 File(s)          3,482 bytes

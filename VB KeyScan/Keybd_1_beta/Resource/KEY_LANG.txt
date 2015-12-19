@@ -1,0 +1,155 @@
+00000000:Language Neutral
+00000400:Process Default Language
+00000436:Afrikaans
+0000041c:Albanian
+00000401:Arabic (Saudi Arabia)
+00000801:Arabic (Iraq)
+00000c01:Arabic (Egypt)
+00001001:Arabic (Libya)
+00001401:Arabic (Algeria)
+00001801:Arabic (Morocco)
+00001c01:Arabic (Tunisia)
+00002001:Arabic (Oman)
+00002401:Arabic (Yemen)
+00002801:Arabic (Syria)
+00002c01:Arabic (Jordan)
+00003001:Arabic (Lebanon)
+00003401:Arabic (Kuwait)
+00003801:Arabic (U.A.E.)
+00003c01:Arabic (Bahrain)
+00004001:Arabic (Qatar)
+0000042b:Armenian
+0000044d:Assamese
+0000042c:Azeri (Latin)
+0000082c:Azeri (Cyrillic)
+0000042d:Basque
+00000423:Belarussian
+00000445:Bengali
+00000402:Bulgarian
+00000455:Burmese
+00000403:Catalan
+00000404:Chinese (Taiwan)
+00000804:Chinese (PRC)
+00000c04:Chinese (Hong Kong SAR, PRC)
+00001004:Chinese (Singapore)
+00001404:Chinese (Macau SAR)
+0000041a:Croatian
+00000405:Czech
+00000406:Danish
+00000413:Dutch (Netherlands)
+00000813:Dutch (Belgium)
+00000409:English (United States)
+00000809:English (United Kingdom)
+00000c09:English (Australian)
+00001009:English (Canadian)
+00001409:English (New Zealand)
+00001809:English (Ireland)
+00001c09:English (South Africa)
+00002009:English (Jamaica)
+00002409:English (Caribbean)
+00002809:English (Belize)
+00002c09:English (Trinidad)
+00003009:English (Zimbabwe)
+00003409:English (Philippines)
+00000425:Estonian
+00000438:Faeroese
+00000429:Farsi
+0000040b:Finnish
+0000040c:French (Standard)
+0000080c:French (Belgian)
+00000c0c:French (Canadian)
+0000100c:French (Switzerland)
+0000140c:French (Luxembourg)
+0000180c:French (Monaco)
+0000043c:Gaelic - Scotland
+00000437:Georgian
+00000407:German (Standard)
+00000807:German (Switzerland)
+00000c07:German (Austria)
+00001007:German (Luxembourg)
+00001407:German (Liechtenstein)
+00000408:Greek
+00000447:Gujarati
+0000040d:Hebrew
+00000439:Hindi
+0000040e:Hungarian
+0000040f:Icelandic
+00000421:Indonesian
+00000410:Italian (Standard)
+00000810:Italian (Switzerland)
+00000411:Japanese
+0000044b:Kannada
+00000860:Kashmiri (India)
+0000043f:Kazakh
+00000457:Konkani
+00000412:Korean
+00000812:Korean (Johab)
+00000426:Latvian
+00000427:Lithuanian
+00000827:Lithuanian (Classic)
+0000042f:Macedonian
+0000043e:Malay (Malaysian)
+0000083e:Malay (Brunei Darussalam)
+0000044c:Malayalam
+0000043a:Maltese
+00000458:Manipuri
+0000044e:Marathi
+00000861:Nepali (India)
+00000414:Norwegian (Bokmal)
+00000814:Norwegian (Nynorsk)
+00000448:Oriya
+00000415:Polish
+00000416:Portuguese (Brazil)
+00000816:Portuguese (Standard)
+00000446:Punjabi
+00000417:Raeto-Romance
+00000418:Romanian
+00000818:Romanian - Moldova
+00000419:Russian
+00000819:Russian - Moldova
+0000044f:Sanskrit
+00000c1a:Serbian (Cyrillic)
+0000081a:Serbian (Latin)
+00000459:Sindhi
+0000041b:Slovak
+00000424:Slovenian
+0000042e:Sorbian
+0000040a:Spanish (Traditional Sort)
+0000080a:Spanish (Mexican)
+00000c0a:Spanish (Modern Sort)
+0000100a:Spanish (Guatemala)
+0000140a:Spanish (Costa Rica)
+0000180a:Spanish (Panama)
+00001c0a:Spanish (Dominican Republic)
+0000200a:Spanish (Venezuela)
+0000240a:Spanish (Colombia)
+0000280a:Spanish (Peru)
+00002c0a:Spanish (Argentina)
+0000300a:Spanish (Ecuador)
+0000340a:Spanish (Chile)
+0000380a:Spanish (Uruguay)
+00003c0a:Spanish (Paraguay)
+0000400a:Spanish (Bolivia)
+0000440a:Spanish (El Salvador)
+0000480a:Spanish (Honduras)
+00004c0a:Spanish (Nicaragua)
+0000500a:Spanish (Puerto Rico)
+00000430:Sutu
+00000441:Swahili (Kenya)
+0000041d:Swedish
+0000081d:Swedish (Finland)
+00000449:Tamil
+00000444:Tatar (Tatarstan)
+0000044a:Telugu
+0000041e:Thai
+00000431:Tsonga
+0000041f:Turkish
+00000422:Ukrainian
+00000420:Urdu (Pakistan)
+00000820:Urdu (India)
+00000443:Uzbek (Latin)
+00000843:Uzbek (Cyrillic)
+0000042a:Vietnamese
+00000434:Xhosa
+0000043d:Yiddish
+00000435:Zulu

@@ -1,0 +1,26 @@
+Color Scheme + Legend
+
+Credit to icon maker
+
+VK, SC Hex
+
+
+Key Up/Down Speed
+Time between key press
+
+Response times
+repeat rate
+
+Help
+
+VK or Scan Code Lookup
+
+
+Key Down, UP, Repeat
+
+
+Depress rate
+Down, Up Between Rate
+Repeat Rate
+
+Color SChemes

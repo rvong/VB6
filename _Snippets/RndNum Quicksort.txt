@@ -1,0 +1,27 @@
+Public Function RandNum(lo, hi) As Long
+    Math.Randomize
+    RandNum = Math.Rnd() * (hi - lo) + lo
+End Function
+
+Public Sub quickSort(Arr() As Long, l As Long, r As Long)
+    Dim lo As Long, hi As Long, pvt As Long, tmp As Long
+    lo = l: hi = r
+    pvt = Arr((lo + hi) \ 2)
+
+    While (lo <= hi)
+        While (Arr(lo) < pvt): lo = lo + 1: Wend
+        While (Arr(hi) > pvt): hi = hi - 1: Wend
+        
+        If (lo <= hi) Then
+            tmp = Arr(lo)
+            Arr(lo) = Arr(hi)
+            Arr(hi) = tmp
+            
+            lo = lo + 1
+            hi = hi - 1
+        End If
+    Wend
+    
+    If (l < hi) Then Call quickSort(Arr(), l, hi)
+    If (lo < r) Then Call quickSort(Arr(), lo, r)
+End Sub
